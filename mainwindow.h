@@ -7,6 +7,8 @@
 #include <QStandardItem>
 #include <QVector>
 #include <QtMath>
+#include <QGridLayout>
+#include <QLabel>
 #include <QDebug>
 
 QT_BEGIN_NAMESPACE
@@ -22,7 +24,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_btn_get_pictures_clicked();
     void on_btn_change_clicked();
 
 private:
